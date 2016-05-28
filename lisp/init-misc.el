@@ -2,6 +2,8 @@
 (autoload 'ivy-recentf "ivy" "" t)
 (autoload 'ivy-read "ivy")
 (autoload 'swiper "swiper" "" t)
+(require 'spaceline-config)
+(spaceline-spacemacs-theme)
 
 (defun swiper-the-thing ()
   (interactive)

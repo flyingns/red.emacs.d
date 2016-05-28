@@ -20,4 +20,8 @@
              "blockquote" "border-left: 2px solid gray; padding-left: 4px;")
             ))
 
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+(setq org-bullets-bullet-list '("①" "②" "③" "④" "⑤" "⑦" "⑧" "⑨"))
+
 (provide 'init-org-mime)
